@@ -1,0 +1,9 @@
+{
+  "name": "spawn-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Run terminal commands with webpack",
+  "main": "index.js",
+  "repository": "git@github.com:fdaciuk/spawn-webpack-plugin.git",
+  "author": "Fernando Daciuk - @fdaciuk",
+  "license": "MIT"
+}
