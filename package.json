@@ -5,5 +5,15 @@
   "main": "index.js",
   "repository": "git@github.com:fdaciuk/spawn-webpack-plugin.git",
   "author": "Fernando Daciuk - @fdaciuk",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix",
+    "preversion": "yarn lint",
+    "postversion": "npm publish"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  }
 }
