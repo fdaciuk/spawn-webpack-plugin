@@ -18,7 +18,7 @@ npm i --save-dev spawn-webpack-plugin
 
 Inside a `webpack.config.js` file, on plugins entry, add:
 
-```
+```js
 const SpawnPlugin = require('spawn-webpack-plugin')
 
 // your config...
