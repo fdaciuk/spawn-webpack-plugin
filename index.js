@@ -8,7 +8,7 @@ class SpawnWebpackPlugin {
 
     this.emit = (compilation, callback) => {
       this.exec(this.command)
-      return callback && callback()
+      return typeof callback === 'function' && callback()
     }
   }
 
